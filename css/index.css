@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: fill-available;
+    height: -webkit-fill-available;
+}
+body {
+    font-family: sans-serif;
+    /* height: 100lvh; */
+    min-height: 100svh;
+    min-height: fill-available;
+    min-height: -webkit-fill-available;
+    background-color: #F9F9F9;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+#main{
+    width: 100vw;
+    max-width: 1200px;
+
+    padding-top: 1px;
+    /* height: 100lvh; */
+    margin: 0 auto;
+
+}
+
+header{
+    border-bottom: 2px solid #E1E1E1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+
+    background-image: url("../img/Vector.png");
+    background-repeat: no-repeat;
+    background-position-y: 20px;
+    background-position-x: 50%;
+    background-size: 90%;
+
+}
+
+.logo h2{
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.login-wrapper{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+}
+
+.login-wrapper .login{
+    color: #3AB34A;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.login-wrapper .register{
+    background-color: #3AB34A;
+    color:#fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+
+.shop {
+    color:#fff;
+    background-color: #3AB34A;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    font-size: 1em;
+    border: none;
+    outline: none;
+}
+
+.parallax {
+    background: url("../bg.jpg"), linear-gradient(to right, #111 0%, #ffffff00 60%);
+
+    /* background-image: ; */
+
+    min-height: 90vh ; 
+    margin: 0px;
+    /* border-radius: 20px; */
+    background-attachment: fixed;
+    background-position: 30% -15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:overlay;
+
+  }
+
+.parallax .content{
+    padding: 50px;
+}
+
+.parallax h1{
+    color: #fff;
+    font-size: 5rem;
+} 
+.parallax p{
+    color: #fff;
+    font-size: 1.6rem;
+    width: 250px;
+    min-width: 40%;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .parallax .content{
+        padding: 40px 30px;
+    }
+    
+    .parallax h1{
+        font-size: 5rem;
+    } 
+    .parallax p{
+        margin-top: 10px;
+        font-size: 1.3rem;
+    }
+    
+    .login-wrapper .login{
+        display: none;
+    }
+    
+}
+
+
+.sec{
+    background-image: url("../img/Vector.png");
+    background-repeat: no-repeat;
+    background-position-y: 20px;
+    background-position-x: 50%;
+
+}
+
+.sec .heading1{
+    text-align: center;
+    color: #3AB34A;
+    font-size: 0.8rem;
+    padding: 40px 0;
+}
+.sec .video-wrapper {
+    text-align: center;
+}
+.sec .video-wrapper video{
+    width: 90%;
+    
+}
+.sec .heading1{
+    text-align: center;
+    padding: 40px 0;
+}
+.sec .map-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    text-align: center;
+    font-size: 0.9em;
+    padding: 20px;
+}

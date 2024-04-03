@@ -1,0 +1,19 @@
+[25-Mar-2024 18:54:34 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'bad_user'@'localhost' (using password: YES) in C:\xampp\htdocs\Farmer\v5\test.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Farmer\v5\test.php(12): mysqli_connect('localhost', 'bad_user', Object(SensitiveParameterValue), 'my_db')
+#1 {main}
+  thrown in C:\xampp\htdocs\Farmer\v5\test.php on line 12
+[25-Mar-2024 18:57:55 Europe/Berlin] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\Farmer\v5\t.php:9
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Farmer\v5\t.php on line 9
+[26-Mar-2024 09:12:48 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'bad_user'@'localhost' (using password: YES) in C:\xampp\htdocs\Farmer\v5\test.php:8
+Stack trace:
+#0 C:\xampp\htdocs\Farmer\v5\test.php(8): mysqli_connect('localhost', 'bad_user', Object(SensitiveParameterValue), 'my_db')
+#1 {main}
+  thrown in C:\xampp\htdocs\Farmer\v5\test.php on line 8
+[26-Mar-2024 17:52:32 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'bad_user'@'localhost' (using password: YES) in C:\xampp\htdocs\Farmer\v5\test.php:8
+Stack trace:
+#0 C:\xampp\htdocs\Farmer\v5\test.php(8): mysqli_connect('localhost', 'bad_user', Object(SensitiveParameterValue), 'my_db')
+#1 {main}
+  thrown in C:\xampp\htdocs\Farmer\v5\test.php on line 8
